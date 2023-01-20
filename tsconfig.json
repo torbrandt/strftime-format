@@ -1,0 +1,12 @@
+{
+  "include": ["src/index.ts"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationDir": "./types",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2016"
+  }
+}
